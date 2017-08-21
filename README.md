@@ -1,4 +1,5 @@
-# Dhruv Bhanushali
-## dhruvkb.github.io
+# Sahdeep Singh
+## sahdeepsingh.github.io/terminal
 
-This is my portfolio website. My personal part of the Internet.
+This repo is cloned from his https://dhruvkb.github.io repo.
+All thanks goes to him.
