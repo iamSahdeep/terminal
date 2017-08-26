@@ -59,7 +59,7 @@ function replaceAllOccurrences(str, find, replace) {
 }
 
 function showPdf(fileName) {
-    window.open(window.location.origin + 'terminal/pdf/' + fileName);
+    window.open(window.location.origin + '/terminal/pdf/' + fileName);
 }
 
 function typeText(text, callback, typeSpeed = TYPE_SPEED) {
@@ -255,7 +255,7 @@ function enterGrab(event) {
 function getStructure() {
     $.ajax({
         method: 'GET',
-        url: window.location.origin + 'terminal/js/structure.json',
+        url: window.location.origin + '/terminal/js/structure.json',
         async: false,
         dataType: 'json',
         success: [
@@ -497,7 +497,7 @@ function concatenate(path) {
     let fileName = node.name;
     if (fileName.includes('.md')) {
         $.ajax({
-            url: window.location.origin + 'terminal/markdowns/' + fileName.replace('.', '') + '.html',
+            url: window.location.origin + '/terminal/markdowns/' + fileName.replace('.', '') + '.html',
             method: 'GET',
             async: false,
             cache: false,
