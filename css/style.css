@@ -52,23 +52,23 @@ a:hover {
 }
 
 .home:before {
-    content: '[guest@dhruvkb ~]$ ';
+    content: '[guest@sah ~]$ ';
 }
 
 .info:before {
-    content: '[guest@dhruvkb info]$ ';
+    content: '[guest@sah info]$ ';
 }
 
 .résumé:before {
-    content: '[guest@dhruvkb résumé]$ ';
+    content: '[guest@sah résumé]$ ';
 }
 
 .contact:before {
-    content: '[guest@dhruvkb contact]$ ';
+    content: '[guest@sah contact]$ ';
 }
 
 .credits:before {
-    content: '[guest@dhruvkb credits]$ ';
+    content: '[guest@sah credits]$ ';
 }
 
 .li:before {
